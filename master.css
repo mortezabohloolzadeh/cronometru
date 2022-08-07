@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+body{
+  color:#fff;
+  background:#000;
+  margin: 0;
+  padding: 0;box-sizing: border-box;
+}
+p {
+  text-align: center;
+  font-size: 60px;
+  margin: 5px;
+  font-family:'Chewy';
+}
+
+
+
+ #Hours, #Minutes, #Seconds, #MlSeconds {
+  float:left;margin:0px;
+}
+.time-content {
+    width: 50%;
+    margin: 0 auto;
+}
+.time-content p {
+    width: calc(100%/4);
+}
+body botton{
+
+}
+.cll{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.ck{
+    background-color: yellow;
+    width: 10%;
+    margin: 10px;
+    cursor: pointer;
+    padding: 20px 0;
+    color: rgb(207, 77, 30);
+             
+}
+#parcham{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+#parcham >p{
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
